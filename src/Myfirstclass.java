@@ -1,7 +1,8 @@
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.edge.EdgeDriver;
-import org.testng.annotations.AfterMethod;
-import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.AfterClass;
+import org.testng.annotations.BeforeClass;
+
 import org.testng.annotations.Test;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
@@ -9,15 +10,13 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 public class Myfirstclass {
 static WebDriver driver;
 	
-	@BeforeMethod
+	@BeforeClass
 	public  void setup()
 	{
 		 WebDriverManager.edgedriver().setup();
 		 driver=new EdgeDriver();
 	}
-
-
-	@Test
+   @Test
 	public static void first() 
 	{
 		
@@ -26,13 +25,13 @@ static WebDriver driver;
 		   System.out.println(title);
 	}
 	@Test
-	public static void first1() 
+	public static void login() 
 	{
-		assert false;
+	System.out.println("this is a login method");	
 	}
 	
 
-	@AfterMethod
+	@AfterClass
 	public  void tearup() {
 		
 		driver.close();

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-08-08T15:03:10 IST" name="Default suite" finished-at="2024-08-08T15:03:33 IST" duration-ms="23231">
+    <groups>
+    </groups>
+    <test started-at="2024-08-08T15:03:10 IST" name="Default test" finished-at="2024-08-08T15:03:33 IST" duration-ms="23231">
+      <class name="Myfirstclass">
+        <test-method is-config="true" signature="setup()[pri:0, instance:Myfirstclass@2899a8db]" started-at="2024-08-08T15:03:10 IST" name="setup" finished-at="2024-08-08T15:03:26 IST" duration-ms="15293" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="first()[pri:0, instance:Myfirstclass@2899a8db]" started-at="2024-08-08T15:03:26 IST" name="first" finished-at="2024-08-08T15:03:33 IST" duration-ms="6779" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- first -->
+        <test-method signature="login()[pri:0, instance:Myfirstclass@2899a8db]" started-at="2024-08-08T15:03:33 IST" name="login" finished-at="2024-08-08T15:03:33 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="tearup()[pri:0, instance:Myfirstclass@2899a8db]" started-at="2024-08-08T15:03:33 IST" name="tearup" finished-at="2024-08-08T15:03:33 IST" duration-ms="539" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearup -->
+      </class> <!-- Myfirstclass -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
